@@ -57,6 +57,11 @@ body {
           width: 100px; /* Mengisi lebar layar penuh pada perangkat mobile */
           height: 100px; /* Menyesuaikan tinggi secara otomatis */
         }
+        .kembali{
+            margin:auto; 
+            text-align:center; 
+            display:block;
+        }
   }
   
   .social-icons {
@@ -139,6 +144,8 @@ a:focus {
   box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
   outline: 0;
 }
+
+
 
 h1{
     text-align: center;
