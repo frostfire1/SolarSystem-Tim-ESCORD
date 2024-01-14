@@ -7,6 +7,22 @@ body {
     margin: 0px;
     overflow: hidden;
 }
+.splash{
+    width: 30%;
+}
+@media screen and (max-width: 768px) {
+    #container {
+        height: 100vh; /* 100% of the viewport height */
+        justify-content: center;
+        align-items: center;
+    }
+    .splash{
+        margin-top: 30px;
+        width: 70%;
+        height: auto;
+    }
+}
+
 
 .small {
     font-size: 12px;
