@@ -1,0 +1,103 @@
+html {
+    overflow-y: auto;
+  }
+
+body {
+    color: #ffffff;
+    font-family: "Segoe UI", Myriad, Helvetica, Arial, "DejaVu Sans", "Noto Sans CJK SC", "Source Han Sans SC", "思源黑体", "等线", "华文细黑", "微软雅黑";
+    font-size: 20px;
+    background-color: #000000;
+    margin: 0px;
+    overflow: hidden;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto; /* Menggunakan overflow-y untuk scrollbar vertikal saja */
+    min-height: 100vh; /* Setidaknya tinggi sepanjang viewport */
+  }
+  
+  .leader-container {
+    margin-bottom: 10px; /* Jarak antara leader dan anggota tim */
+  }
+  
+  .team-members-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .team-member {
+    box-sizing: border-box;
+    width: 200px;
+    margin: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #585EFF;
+    transition: box-shadow 0.3s ease; /* Menambahkan transisi untuk efek hover */
+  }
+  
+  .team-member:hover {
+    box-shadow: 0 10px 20px rgba(17, 0, 255, 0.712); /* Efek shadow saat dihover */
+    border: 2px solid #8488F4;
+  }
+  
+  .leader {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #00C49C;
+    
+  }
+  .leader:hover {
+    box-shadow: 0 10px 20px rgba(21, 255, 0, 0.521); /* Efek shadow saat dihover */
+    border: 2px solid #21EF80;
+  }
+  
+  
+  h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  
+  img {
+    width: 80%; /* Gambar akan menyesuaikan lebar div parent */
+    height: 80%; /* Gambar akan menyesuaikan tinggi div parent */
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  p {
+    margin: 10px;
+  }
+
+
+a {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 14px;
+  border-radius: 6px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+a:focus {
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+h1{
+    text-align: center;
+}
