@@ -59,6 +59,34 @@ body {
         }
   }
   
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+    transition: filter 0.3s ease; /* Menambahkan transisi untuk efek glow */
+  }
+  
+  .linkdln:hover{
+    fill: #0288D1;
+    filter: drop-shadow(0 1px 0.5px #0288D1);
+  }
+
+  .github:hover{
+    fill: #ffffff;
+    filter: drop-shadow(0 1px 1px #ffff);
+  }
+
+  .instagram:hover{
+    fill: #d62976;
+    filter: drop-shadow(0 1px 1px #d62976);
+  }
+
   .leader {
     background-color: transparent;
     color: #fff;
