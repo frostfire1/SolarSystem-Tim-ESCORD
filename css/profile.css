@@ -44,6 +44,20 @@ body {
     box-shadow: 0 10px 20px rgba(17, 0, 255, 0.712); /* Efek shadow saat dihover */
     border: 2px solid #8488F4;
   }
+  @media (max-width: 600px) {
+    .team-members-row {
+      flex-direction: column; /* Mengubah orientasi flex menjadi kolom di perangkat mobile */
+    }
+
+        .team-member {
+          width: 100%; /* Mengisi lebar layar penuh */
+        }
+      
+        img {
+          width: 100px; /* Mengisi lebar layar penuh pada perangkat mobile */
+          height: 100px; /* Menyesuaikan tinggi secara otomatis */
+        }
+  }
   
   .leader {
     background-color: transparent;
